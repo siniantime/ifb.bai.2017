@@ -1,0 +1,92 @@
+/*公共样式*/
+.body{
+	font-family: 'Microsoft Yahei';
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.fc{
+	clear: both;
+}
+.container{
+	width: 892px;
+	margin: auto;
+	padding: 0 44px;
+}
+.header{
+	position: relative;
+	height: 61px;
+	border-bottom: 2px solid #938e8c;
+}
+.header p{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding-top:46px; 
+	height: 61px;
+	font-size: 12px;
+	font-family:'SimHei';
+	vertical-align: bottom;
+
+}
+.header p:first-child{
+	padding-left: 3px;
+	width: 110px;
+	color: #fff;
+	background-color: #D55D5C;
+}
+.header p:last-child{
+	position: relative;
+	right: 0;
+	color: #d45d5c;
+}
+/*内容区*/
+.content{
+	padding: 36px 0 41px 0;
+}
+.section-1{
+	height: 301px;
+	margin-top: 35px;
+	background: url(../img/img-1.jpg) left no-repeat;
+}
+.section-1 .banner {
+	width: 641px;
+	height: 301px;
+}
+.section-1 .banner>div{
+	width: 191px;
+	height: 301px;
+}
+.section-1 .banner .mask-left{
+	background-color: rgba(66,140,89,0.5);
+}
+.section-1 .banner .mask-right{
+	background-color: rgba(204,118,128,0.5);
+}
+.section-1 .sidebar{
+	width: 203px;
+	border-top: 2px solid #cc8091;
+}
+.section-1 .sidebar h1{
+	font-size: 24px;
+}
+.section-1 .sidebar h1 span{
+	padding: 16px 0 5px 0;
+	display: inline-block;
+	border-bottom: 2px solid #000;
+}
+.section-1 .sidebar h1 span:first-letter{
+	font-size: 30px;
+}
+/*页脚区*/
+.foot{
+	height: 59px;
+	border-top: 1px solid #938e8c;
+}
+.foot p{
+	font-size: 12px;
+	color: #d45d5c;
+	font-family:'SimHei';
+}
