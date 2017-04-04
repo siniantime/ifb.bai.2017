@@ -44,7 +44,7 @@
 }
 /*内容区*/
 .content{
-	padding: 36px 0 41px 0;
+	padding: 0 0 41px 0;
 }
 .section-1{
 	height: 301px;
@@ -156,6 +156,8 @@
 	font: 12px "宋体";
 	line-height: 16px;
 	text-align: justify;
+	color: #231815;
+	opacity: 0.7;
 }
 .section-2 ul li:last-child p:last-child{
 	font-family: "Microsoft Yahei";
@@ -164,7 +166,6 @@
 .section-2 ul li p span{
 	font-style: italic;
 	color: #cd4a48;
-	opacity: 0.7;
 }
 /*第三部分*/
 .section-3{
@@ -245,6 +246,7 @@
 	padding: 21px 0 23px 32px;
 	font: 16px '宋体';
 	line-height: 36px;
+	color: #5a5b5b;
 }
 .section-3 ul li:first-child span{
 	display: inline-block;
@@ -297,11 +299,18 @@
 	display: inline-block;
 	width: 31px;
 	height: 16px;
-	margin-left: -40px;
-	padding-right: 40px;
 	font-size: 72px;
+	font-style: normal;
 	line-height: 16px;
 	color: #d45d5c;
+}
+.section-3 ul li:last-child span:first-child{
+	margin:0px 0 -12px -40px;
+	padding:12px 56px 0 0;
+}
+.section-3 ul li:last-child span:last-child{
+	margin:0px 0 -30px 0px;
+	padding:30px 0px 0 0;
 }
 /*页脚区*/
 .foot{
