@@ -242,7 +242,7 @@
 	background-color: #EEEED6;
 }
 .section-3 ul li:first-child{
-	padding: 21px 0 0 32px;
+	padding: 21px 0 23px 32px;
 	font: 16px '宋体';
 	line-height: 36px;
 }
@@ -260,6 +260,49 @@
 	font-style: italic;
 }
 
+.section-3 ul li:nth-child(2) {
+	width: 252px;
+	height: 86px;
+	padding: 41px 5px 35px ;
+	font-family: "黑体";
+	color: #fff;
+	background-color: #D45D5C;
+}
+.section-3 ul li:nth-child(2) span{
+	display: inline-block;
+	height: 86px;
+	margin-right: 7px;
+	padding-right: 5px;
+	font: 110px "Microsoft Yahei";
+	line-height: 86px;
+	border-right: 2px solid #fff;
+}
+.section-3 ul li:nth-child(2) strong{
+	display: inline-block;
+	padding-top: 5px;
+	font-size: 21px;
+	font-style: italic;
+	line-height: 24px;
+}
+.section-3 ul li:last-child{
+	width: 176px;
+	padding: 10px;
+	font:14px "黑体";
+	font-style: italic;
+	line-height: 16px;
+	text-align: justify;
+	color: #5a5b5b;
+}
+.section-3 ul li:last-child span{
+	display: inline-block;
+	width: 31px;
+	height: 16px;
+	margin-left: -40px;
+	padding-right: 40px;
+	font-size: 72px;
+	line-height: 16px;
+	color: #d45d5c;
+}
 /*页脚区*/
 .foot{
 	height: 59px;
